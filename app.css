@@ -1,0 +1,56 @@
+.video {
+	width: 100%;
+}
+
+.wrapper_video {
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	background: url("Tree.png") no-repeat;
+	background-size: cover;
+	height: 20.71px;
+	width: 20px;
+	right: 20px;
+	top: 20px;
+	opacity: .6;
+	z-index: 1;
+}
+
+.logo:hover {
+	opacity: 1;
+}
+
+#pop_over {
+	position: absolute;
+	background-color: #C1C1C1;
+	top:55px;
+	right: -120px;
+	width: 15%;
+	height: 73%;
+	opacity: 0;
+	z-index: 1;
+}
+
+#link_one {
+	background: url("google.png") no-repeat;
+}
+
+#link_two {
+	background: url("facebook.png") no-repeat;
+}
+
+#link_three {
+	background: url("twitter.png") no-repeat;
+}
+
+#pop_over div {
+	position: relative;
+	background-size: contain;
+	height: 23%;
+	width: 43%;
+	top: 30px;
+	left: 40%;
+}
+

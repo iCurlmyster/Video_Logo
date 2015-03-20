@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> Logo </title>
+
+		<link rel="stylesheet" href="app.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	</head>
+	<body>
+
+	<div class="wrapper_video">
+		
+		<div class="logo" ></div>
+
+		<div id="pop_over" > 
+			<div id="link_one" ></div> 
+			<div id="link_two"></div> 
+			<div id="link_three"></div> 
+		</div>
+
+		<video class="video" controls mute autoplay loop>
+			<source src="Super_8mm_film_France_70s_6.mp4" type="video/mp4" >
+		</video>
+
+	</div>
+
+
+	<noscript> this site requires javascript. </noscript>
+	<script>
+	<!-- hide javascript
+	var side_bar_out = false;
+
+	$("document").ready(function () {
+
+	});
+	$(".logo").click(function () { 
+		if (side_bar_out)
+		{
+			$("#pop_over").animate({right: '-120px',
+									opacity: '0'});
+			side_bar_out = false;
+		}
+		else 
+		{
+			$("#pop_over").animate({right: '0px',
+									opacity: '0.5'});
+			side_bar_out = true;
+		}
+	});
+
+	$("#link_one").click(function () {
+		window.location.href = "http://www.google.com"
+	});
+
+	$("#link_two").click(function () {
+		window.location.href = "http://www.facebook.com"
+	});
+
+	$("#link_three").click(function () {
+		window.location.href = "http://www.twitter.com"
+	});
+
+	
+	</script>
+
+	</body>
+</html>
